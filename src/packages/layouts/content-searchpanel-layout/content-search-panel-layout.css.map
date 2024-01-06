@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACE,2BADyB,CACzB,YAAY,CAAC;EACX,YAAY,EAAE,iBAAiB;CAChC",
+    "sources": [
+        "content-search-panel-layout.scss"
+    ],
+    "names": [],
+    "file": "content-search-panel-layout.css"
+}

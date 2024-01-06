@@ -1,0 +1,48 @@
+.dx-scrollview-content {
+  height: 100%;
+}
+
+.dx-scrollview-top-pocket {
+  height: 100%;
+  display: none;
+}
+
+.dx-scrollable-content {
+  height: 100%;
+}
+
+.search-panel-visible {
+  padding-bottom: 10px;
+}
+
+.tagbox-custom {
+  .dx-tag-remove-button {
+    position: relative !important;
+    display: flex;
+
+    &::before {
+      content: "" !important;
+    }
+  }
+}
+
+.custom-btn {
+  position: sticky !important;
+  left: 10px;
+  bottom: 0;
+  width: calc(100% - 10px);
+}
+
+.button-collapse {
+  display: none !important;
+}
+
+.btn-search {
+  position: absolute !important;
+  top: 10px;
+  left: 10px;
+}
+
+.RptCallAnalysisByWaitTime {
+  overflow: hidden;
+}

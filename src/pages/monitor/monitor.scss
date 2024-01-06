@@ -1,0 +1,53 @@
+@import "../../themes/generated/variables.base";
+
+.monitor {
+  .tb-list {
+
+    td,
+    th {
+      background: #fff;
+      border-bottom: solid 1px #eee;
+      text-align: left;
+      padding: 10px;
+    }
+
+    tr:hover td{background: #EDF9F4;}
+  }
+
+
+  .monitor-status {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #e9e9e9;
+
+  }
+
+  .monitor-status.online {
+    background: #0FBC2B;
+    color: #fff;
+  }
+
+  .monitor-status.offline {
+    background: #f9f9f9;
+
+  }
+
+  .monitor-status.busy {
+    background: #f0952d;
+    color: #fff;
+
+  }
+
+
+  .call-status.ringing {    color: #cfb929;  }
+  .call-status.complete {    color: #0fbc2b;  }
+  .call-status.noanswer {    color: #d62d2d;  }
+  .call-status.incall {    color: #00bea7;  }
+  .call-status.unavail {    color: #d62d2d;  }
+  .call-status.rejected {    color: #d62d2d;  }
+  .call-status.error {    color: #d62d2d;  }
+  .call-status.blocked {    color: #d62d2d;  }
+
+
+}

@@ -1,0 +1,27 @@
+.SLA-header {
+  .dx-item .dx-box-item:nth-child(1) {
+    height: 40px;
+  }
+}
+
+.sla-left {
+  label {
+    width: 100px !important;
+    min-width: 100px !important;
+  }
+
+  .dx-textbox {
+    width: calc(100% - 120px);
+  }
+}
+
+.sla-right {
+  label {
+    width: 200px !important;
+    min-width: 200px !important;
+  }
+
+  .dx-datebox {
+    width: calc(100% - 220px);
+  }
+}

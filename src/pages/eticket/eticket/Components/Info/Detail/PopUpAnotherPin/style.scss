@@ -1,0 +1,24 @@
+.dx-overlay-content {
+  .dx-overlay-content.position-relative {
+    padding-left: 24px !important;
+  }
+  .position-relative {
+    position: relative !important;
+  }
+  .message-type {
+    position: absolute;
+    left: -0px;
+    top: calc(50% - 12px);
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    display: block;
+    background: #f9f9f9;
+    text-align: center;
+    border-radius: 4px;
+  }
+
+  .pop-up-use {
+    padding-left: 24px;
+  }
+}

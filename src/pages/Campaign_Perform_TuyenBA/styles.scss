@@ -1,0 +1,176 @@
+.Cpn_CampaignPerformPage {
+
+  .customer-item {
+    position: relative;
+    width: 100%;
+    border-bottom: solid 1px #eee;
+    padding: 10px 0 10px 0;
+
+    .btn-call {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: #008000;
+      color: #fff !important;
+    }
+  }
+
+  .customer-item:hover {
+    background: #EAF9F2;
+  }
+
+
+  .from-group {
+    width: 100%;
+
+    label {
+      width: 160px;
+      // margin-top: 7px;
+      display: inline-block;
+    }
+
+    .input {
+      float: right;
+
+      width: calc(100% - 165px);
+    }
+  }
+
+
+  .tb-list {
+
+    font-size: 0.8em;
+
+    th,
+    td {
+      text-align: left;
+      border-bottom: solid 1px #eee;
+      padding: 5px;
+    }
+
+    tr:hover td {
+      background-color: #EAF9F2;
+    }
+  }
+
+  .group-head {
+    background: #E8F0F6;
+    line-height: 40px;
+    height: 40px;
+
+    button {
+      border: none;
+
+      background: none !important;
+
+    }
+  }
+
+
+
+
+
+}
+
+
+.ic-status-pending {
+  background-image: url(/images/icons/campaign-status/ic_pending.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+}
+
+.status-done {
+  color: #78D988 !important;
+}
+.ic-status-done {
+  background-image: url(/images/icons/campaign-status/ic_done.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+}
+
+.status-failed {
+  color: #D74646 !important;
+}
+
+.ic-status-failed {
+  background-image: url(/images/icons/campaign-status/ic_failed.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+}
+
+.status-noanswer {
+  color: #40CEBD !important;
+}
+
+.ic-status-noanswer {
+  background-image: url(/images/icons/campaign-status/ic_noanswer.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+}
+.status-callagain {
+  color: #9A75D7 !important;
+}
+
+.ic-status-callagain {
+  background-image: url(/images/icons/campaign-status/ic_callagain.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+}
+.status-noanswerretry {
+  color: #EBA142 !important;
+}
+
+.ic-status-noanswerretry {
+  background-image: url(/images/icons/campaign-status/ic_noanswerretry.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+}
+.status-donotcall {
+  color: #888 !important;
+}
+.ic-status-donotcall {
+  background-image: url(/images/icons/campaign-status/ic_donotcall.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+}
+
+.status-failedretry {
+  color: #439CF3 !important;
+}
+.ic-status-failedretry {
+  background-image: url(/images/icons/campaign-status/ic_failedretry.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+}

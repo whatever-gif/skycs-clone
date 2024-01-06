@@ -1,0 +1,15 @@
+.login-form .link {
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+}
+
+.login-form .link a {
+  text-decoration: none;
+}
+
+.login-form .form-text {
+  margin: 10px 0;
+  color: rgba(14, 34, 61, 0.7);
+}
+/*# sourceMappingURL=LoginForm.css.map */

@@ -1,0 +1,5 @@
+.required label:after {
+  content: '*';
+  color: red;
+}
+/*# sourceMappingURL=edit-form.css.map */

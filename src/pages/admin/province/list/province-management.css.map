@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AACE,oBADkB,CAClB,YAAY,CAAC;EACX,gBAAgB,ECJU,OAAO;CDKlC;;AAHH,AAUY,oBAVQ,CAKlB,kBAAkB,CAChB,gBAAgB,CACd,eAAe,CACb,kBAAkB,CAChB,aAAa,AACV,OAAO,CAAC;EACP,KAAK,EAAE,OAAO;CACf",
+    "sources": [
+        "province-management.scss",
+        "../../../../themes/variables.common.scss"
+    ],
+    "names": [],
+    "file": "province-management.css"
+}

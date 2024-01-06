@@ -1,0 +1,64 @@
+.header-title {
+  color: #0e223d;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.table-pivot-content {
+  display: inline-block;
+  margin: auto;
+  table {
+    display: inline-block;
+    // border: 1px solid #dfdfdf;
+    .header {
+      background-color: #eaf9f2;
+      .th-header {
+        padding: 12px 16px;
+        border: 1px solid #dfdfdf;
+      }
+    }
+    .td-content {
+      border: 1px solid #dfdfdf;
+      padding: 12px 16px;
+    }
+  }
+}
+
+#pieChart {
+  width: 700px;
+}
+
+.dxc-legend {
+  // transform: translate( -25% ,25%);
+  // -webkit-transform: translate( -25% ,25%);
+  // -moz-transform: translate( -25% ,25%);
+  // -ms-transform: translate( -25% ,25%);
+  // -o-transform: translate( -25% ,25%);
+}
+
+.transform-state {
+}
+
+.RptCpnCampaignSummaryCampaignStatusController-transform-state {
+  // transform: translate(-18%, 0%);
+  // -webkit-transform: translate(-18%, 0%);
+  // -moz-transform: translate(-18%, 0%);
+  // -ms-transform: translate(-18%, 0%);
+  // -o-transform: translate(-18%, 0%);
+  // margin-bottom: 30px;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.dx-calendar-cell-in-range::before {
+  height: 100% !important;
+}
+
+.dx-calendar-cell span {
+  width: 2rem;
+}

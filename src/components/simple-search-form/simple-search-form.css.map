@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,6BAA6B,CAAC;EAC5B,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,IAAI;CAad;;AAfD,AAGE,6BAH2B,CAG3B,IAAI,CAAC;EACH,IAAI,EAAE,CAAC;CAUR;;AAdH,AAKI,6BALyB,CAG3B,IAAI,CAEF,mBAAmB,CAAC;EAClB,YAAY,EAAE,IAAI;EAClB,aAAa,EAAE,IAAI;CAMpB;;AAbL,AAQM,6BARuB,CAG3B,IAAI,CAEF,mBAAmB,CAGjB,UAAU,AAAA,mBAAmB,CAAC;EAC5B,aAAa,EAAE,eAAe;CAC/B",
+    "sources": [
+        "simple-search-form.scss"
+    ],
+    "names": [],
+    "file": "simple-search-form.css"
+}

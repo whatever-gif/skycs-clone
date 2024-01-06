@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAEI,SAFK,CACP,KAAK,AACF,MAAM,CAAC;EACN,OAAO,EAAE,GAAG;EACZ,KAAK,EAAE,GAAG;CACX",
+    "sources": [
+        "edit-form.scss"
+    ],
+    "names": [],
+    "file": "edit-form.css"
+}

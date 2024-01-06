@@ -1,0 +1,30 @@
+.dms .drawer {
+  height: calc(100% - $header-bar-height);
+}
+
+.dms #navigation-header .dx-toolbar-items-container {
+  height: 50px;
+}
+
+.skycs .drawer {
+  height: calc(100% - $header-bar-height);
+  position: fixed;
+  top: 60px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.skycs .dx-drawer-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow-y: auto;
+}
+
+.skycs #navigation-header .dx-toolbar-items-container {
+  height: 50px;
+}
+/*# sourceMappingURL=admin-page-layout.css.map */

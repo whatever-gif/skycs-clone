@@ -1,0 +1,65 @@
+.menu-bar-drop-down.dx-overlay-wrapper .dx-overlay-content {
+  right: -1px;
+  background: #FFFFFF;
+  padding: 16px;
+}
+
+.menu-bar-container {
+  color: #f5f5f5;
+}
+
+.menu-bar-container .view-more .dx-button-content {
+  background: #FFFFFF;
+  border-radius: 2px;
+}
+
+.menu-bar-container .view-more .dx-button-content .dx-icon {
+  color: #0e223d;
+}
+
+.menu-bar-container .dx-item-content {
+  background-color: #00703c;
+  color: #0e223d;
+  height: 30px;
+}
+
+.menu-bar-container .dx-item-content .menu-item {
+  height: 30px;
+}
+
+.menu-bar-container .dx-tab {
+  background-color: #00703c;
+  color: #0e223d;
+  padding-bottom: 4px;
+}
+
+.menu-bar-container .dx-tab.dx-item {
+  width: 100px;
+}
+
+.menu-bar-container .dx-tab.dx-item .dx-tab-text {
+  border-bottom: solid 2px transparent;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.menu-bar-container .dx-tab-selected {
+  border: none;
+  background-color: #00703c;
+}
+
+.menu-bar-container .dx-tab-selected:before {
+  content: none;
+}
+
+.menu-bar-container .dx-tab-selected .dx-tab-content {
+  border: none;
+  background-color: #00703c;
+  color: #00703c;
+}
+
+.menu-bar-container .dx-tab-selected .dx-tab-content .dx-tab-text {
+  border: none;
+  background-color: #00703c;
+}
+/*# sourceMappingURL=menu-bar.css.map */

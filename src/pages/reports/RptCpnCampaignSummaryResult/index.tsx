@@ -1,0 +1,1 @@
+import Eticket from './RptCpnCampaignSummaryResult'

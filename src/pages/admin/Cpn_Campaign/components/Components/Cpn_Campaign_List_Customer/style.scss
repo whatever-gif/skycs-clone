@@ -1,0 +1,102 @@
+.ic-status-pending {
+  background-image: url(/images/icons/campaign-status/ic_pending.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+}
+
+.status-done {
+  color: #78d988 !important;
+}
+.ic-status-done {
+  background-image: url(/images/icons/campaign-status/ic_done.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+}
+
+.status-failed {
+  color: #d74646 !important;
+}
+
+.ic-status-failed {
+  background-image: url(/images/icons/campaign-status/ic_failed.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+}
+
+.status-noanswer {
+  color: #40cebd !important;
+}
+
+.ic-status-noanswer {
+  background-image: url(/images/icons/campaign-status/ic_noanswer.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+}
+.status-callagain {
+  color: #9a75d7 !important;
+}
+
+.ic-status-callagain {
+  background-image: url(/images/icons/campaign-status/ic_callagain.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+}
+.status-noanswerretry {
+  color: #eba142 !important;
+}
+
+.ic-status-noanswerretry {
+  background-image: url(/images/icons/campaign-status/ic_noanswerretry.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+}
+.status-donotcall {
+  color: #888 !important;
+}
+.ic-status-donotcall {
+  background-image: url(/images/icons/campaign-status/ic_donotcall.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+}
+
+.status-failedretry {
+  color: #439cf3 !important;
+}
+.ic-status-failedretry {
+  background-image: url(/images/icons/campaign-status/ic_failedretry.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+}
+

@@ -1,0 +1,36 @@
+.popup-content {
+  .tag {
+    display: flex;
+    align-items: center;
+    background-color: rgba(234, 249, 242, 1);
+    padding: 12px;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
+
+    .left {
+      p {
+        font-size: 14px;
+      }
+    }
+
+    div {
+      p:first-child {
+        margin-bottom: 11px;
+      }
+    }
+
+    .right {
+      text-align: right;
+      p {
+        font-size: 13px;
+      }
+    }
+    .strong {
+      font-weight: bold;
+    }
+  }
+
+  .form-transformCustomer {
+    .dx-box-flex {
+    }
+  }
+}

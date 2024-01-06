@@ -1,0 +1,14 @@
+.content-with-search-layout {
+  #search-pane {
+    border-right: solid 1px #e3ebf1;
+  }
+}
+
+.search-panel-visible {
+  padding: 8px;
+  padding-right: 4px;
+
+  .dx-field-item-label-location-top {
+    width: 100% !important;
+  }
+}

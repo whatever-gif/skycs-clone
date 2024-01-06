@@ -1,0 +1,19 @@
+.Post_cancel .dx-button-content {
+  background-color: white !important;
+  color: black !important;
+}
+
+.SearchMST-input:focus {
+  border: none !important;
+}
+.dx-field-item-label-content {
+  display: none;
+}
+.dx-fileuploader-input-wrapper {
+  display: none;
+}
+.search_history-bg:hover .search_history-title {
+  color: #00703c;
+  text-decoration: underline !important;
+}
+/*# sourceMappingURL=SearchMST.css.map */

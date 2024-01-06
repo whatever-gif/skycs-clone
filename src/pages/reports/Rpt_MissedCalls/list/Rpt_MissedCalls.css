@@ -1,0 +1,23 @@
+.Post_cancel .dx-button-content {
+  background-color: white !important;
+  color: black !important;
+}
+
+.form_detail_post .dx-field-item:not(.dx-field-item-has-group):not(.dx-field-item-has-tabs):not(
+.dx-first-row
+):not(.dx-label-v-align) {
+  padding-top: 10px;
+}
+
+.form_detail_post .dx-treeview-toggle-item-visibility.dx-treeview-toggle-item-visibility-opened::before {
+  top: 65%;
+}
+
+.form_detail_post .dx-treeview-item .dx-treeview-item-content span {
+  vertical-align: -webkit-baseline-middle;
+}
+
+.form_detail_post .dx-treeview-toggle-item-visibility::before {
+  top: 65%;
+}
+/*# sourceMappingURL=Rpt_CpnCampaignStatisticCall.css.map */

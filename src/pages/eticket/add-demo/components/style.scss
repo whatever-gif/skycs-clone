@@ -1,0 +1,55 @@
+.dx-field-item-label {
+  min-width: 160px !important;
+}
+
+.Tab_CustomerDetail {
+  .form-test {
+    .normal-content.dx-form.dx-widget.dx-visibility-change-handler {
+      padding-left: 25px !important;
+      padding-right: 50px !important;
+    }
+  }
+}
+
+.expand-icon-true {
+  .dx-button-content {
+    transform: rotate(180deg);
+  }
+}
+
+.expand-icon-false {
+  .dx-button-content {
+    transform: rotate(0deg);
+  }
+}
+
+.EticketAdd {
+  .dx-texteditor-input {
+    font-weight: 600 !important;
+    color: #000 !important;
+  }
+}
+
+.dx-tag-container {
+  input {
+    outline: none !important;
+    border: none !important;
+    outline-offset: 0px !important;
+    outline-color: transparent !important;
+  }
+
+  input:focus {
+    outline: none !important;
+    border: none !important;
+    outline-offset: 0px !important;
+    outline-color: transparent !important;
+  }
+
+  [type="text"]:focus {
+    outline: none !important;
+    border: none !important;
+    border-color: transparent !important;
+    padding: 0;
+    --tw-ring-color: #fff;
+  }
+}

@@ -1,0 +1,31 @@
+.header-title {
+  color: #0e223d;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.table-pivot-content {
+  display: inline-block;
+  margin: auto;
+  table {
+    display: inline-block;
+    // border: 1px solid #dfdfdf;
+    .header {
+      background-color: #eaf9f2;
+      .th-header {
+        padding: 12px 16px;
+        border: 1px solid #dfdfdf;
+      }
+    }
+    .td-content {
+      border: 1px solid #dfdfdf;
+      padding: 12px 16px;
+    }
+  }
+}
+
+.transform-state {
+}

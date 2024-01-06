@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAEI,eAFW,CACb,UAAU,AACP,mBAAmB,CAAC;EACnB,MAAM,EAAE,IAAI;CAIb;;AAPL,AAIM,eAJS,CACb,UAAU,AACP,mBAAmB,AAEjB,eAAe,CAAC;EACf,gBAAgB,EAAE,WAAW;CAC9B",
+    "sources": [
+        "page-navigator.scss"
+    ],
+    "names": [],
+    "file": "page-navigator.css"
+}

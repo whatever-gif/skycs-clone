@@ -1,0 +1,18 @@
+.required {
+  label {
+    &:after {
+      content: "*";
+      color: red;
+    }
+  }
+}
+
+.btn-icon {
+  .dx-button-content {
+    background: white !important;
+    .dx-icon {
+      width: 12px;
+      height: 14px;
+    }
+  }
+}

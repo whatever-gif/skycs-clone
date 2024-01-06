@@ -1,0 +1,31 @@
+.divider-form {
+  &::after {
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: calc(100% + 50px);
+    background-color: #f5f5f5;
+    top: 0;
+    right: -30px;
+  }
+}
+
+.files-uploader {
+  .dx-fileuploader-wrapper {
+    padding: 0;
+    margin: 0;
+  }
+
+  .dx-fileuploader-input-wrapper {
+    padding: 0;
+    border: 0;
+  }
+}
+
+.dx-field-item-label-text {
+  color: #000 !important;
+}
+
+.dx-tag-container {
+  padding-top: 5px !important;
+}

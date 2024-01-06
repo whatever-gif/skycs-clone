@@ -1,0 +1,10 @@
+.page-navigator {
+  .dx-button {
+    &.dx-button-has-icon {
+      border: none;
+      &.dx-state-hover {
+        background-color: transparent;
+      }
+    }
+  }
+}

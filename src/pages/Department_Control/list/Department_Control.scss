@@ -1,0 +1,33 @@
+// .dealer-management {
+
+// }
+
+.Department_Control {
+  .dx-button-has-text .dx-button-content {
+    padding: 5px 16px;
+    background-color: green;
+    color: white;
+  }
+  .listUser_Department .dx-toolbar-items-container {
+    display: none !important;
+  }
+  .listUser_Department {
+    height: auto !important;
+  }
+  .dx-popup-title.dx-toolbar .dx-toolbar-before {
+    padding-top: 18px;
+  }
+  .listUser_Department .ScrollView_Customize {
+    height: auto !important;
+  }
+  .dx-radiogroup .dx-radiobutton {
+    margin: 15px 0 !important;
+  }
+  .radioform .dx-widget .dx-radiogroup > .dx-collection {
+    gap: 0px !important;
+    flex-direction: column !important;
+  }
+  .radioform .dx-radio-value-container {
+    padding-right: 0 !important;
+  }
+}

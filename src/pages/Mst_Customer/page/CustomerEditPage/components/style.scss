@@ -1,0 +1,33 @@
+.dx-tagbox {
+  height: auto !important;
+}
+
+.form-test {
+  .dx-form {
+    padding: 10px 24px !important;
+
+    .dx-field-item-label {
+      width: 160px;
+      min-width: 160px;
+      white-space: pre-wrap;
+    }
+  }
+}
+
+.form-customer-content {
+  .dx-field-item-label {
+    vertical-align: unset;
+  }
+
+  .dx-invalid {
+    // margin-bottom: 10px;
+  }
+
+  .dx-radiogroup {
+    height: 30px !important;
+  }
+
+  .dx-invalid-message-content {
+    padding: 0px !important;
+  }
+}

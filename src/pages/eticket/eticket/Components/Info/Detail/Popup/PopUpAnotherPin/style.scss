@@ -1,0 +1,153 @@
+.dx-overlay-content {
+  z-index: -1 !important;
+  .dx-overlay-content.position-relative {
+    padding-left: 24px !important;
+  }
+  .position-relative {
+    position: relative !important;
+  }
+  .message-type {
+    position: absolute;
+    left: -10px;
+    top: calc(50% - 12px);
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    display: block;
+    background: #f9f9f9;
+    text-align: center;
+    border-radius: 4px;
+  }
+
+  .pop-up-use {
+    padding-left: 24px;
+  }
+  .dx-scrollable-content {
+    width: 100%;
+    background-color: #f5f7f9;
+  }
+
+  .message-item {
+    width: 98%;
+    margin: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+.message-type.call.in {
+  background-color: #d5f9e8;
+  i {
+    background-image: url(/images/icons/call_in.svg);
+  }
+}
+.message-type.call.out {
+  background-color: #d1e8ff;
+  i {
+    background-image: url(/images/icons/call_out.svg);
+  }
+}
+.message-type.call.missed {
+  background-color: #ffe8ee;
+  i {
+    background-image: url(/images/icons/call_missed.svg);
+  }
+}
+.message-type.call.noanswer {
+  background-color: #ffeae1;
+  i {
+    background-image: url(/images/icons/call_noanswer.svg);
+  }
+}
+.message-type.emailin {
+  background-color: #d5f9e8 !important;
+  i {
+    background-image: url(/images/icons/email_in.svg);
+  }
+}
+.message-type.call {
+  background-color: #d5f9e8;
+}
+
+.message-type.call.in {
+  background-color: #d5f9e8;
+  i {
+    background-image: url(/images/icons/call_in.svg);
+  }
+}
+.message-type.call.out {
+  background-color: #d1e8ff;
+  i {
+    background-image: url(/images/icons/call_out.svg);
+  }
+}
+.message-type.call.missed {
+  background-color: #ffe8ee;
+  i {
+    background-image: url(/images/icons/call_missed.svg);
+  }
+}
+.message-type.callout {
+  background: rgba(209, 232, 255, 1);
+}
+.message-type.callmissedout {
+  background: #ffeae1;
+}
+.message-type.callmissedin {
+  background-color: #ffe8ee;
+}
+.message-type.emailout {
+  background-color: #d1e8ff;
+  i {
+    background-image: url(/images/icons/email_out.svg);
+  }
+}
+.message-type.remark {
+  background: #c9ffdd;
+}
+
+.message-type.note {
+  background-color: rgba(213, 249, 232, 1);
+}
+
+.message-type.zaloin,
+.message-type.zaloout {
+  background: rgba(218, 242, 255, 1);
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+  i {
+    background-image: url(@packages/ui/icons/svg/zalo.svg);
+  }
+}
+
+.message-type.callin {
+  background: rgba(213, 249, 232, 1);
+}
+
+.message-type.CallMissedIn {
+  background: rgba(255, 232, 238, 1);
+}
+
+.part-detail-info-value {
+  color: #0e223d;
+}
+
+.message-type.CallMissingOut {
+  background: rgba(255, 234, 225, 1);
+}
+
+.message-type.callOut {
+  background: rgba(209, 232, 255, 1);
+}
+
+.dx-button-content {
+  svg {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+.popup-pin {
+}

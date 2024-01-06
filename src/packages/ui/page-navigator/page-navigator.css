@@ -1,0 +1,8 @@
+.page-navigator .dx-button.dx-button-has-icon {
+  border: none;
+}
+
+.page-navigator .dx-button.dx-button-has-icon.dx-state-hover {
+  background-color: transparent;
+}
+/*# sourceMappingURL=page-navigator.css.map */

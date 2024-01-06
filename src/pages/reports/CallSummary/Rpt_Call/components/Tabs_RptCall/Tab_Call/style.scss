@@ -1,0 +1,32 @@
+// .ReportCall_Manager {
+//   .search-panel-visible {
+//     .search-header-button {
+//       .button-collapse {
+//         display: none !important;
+//       }
+//     }
+//   }
+// }
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.button-item {
+  padding: 9px 8px;
+  color: #0e223d !important;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  cursor: pointer;
+  line-height: normal;
+  margin-left: 8px;
+  margin-right: 8px;
+
+  &.active {
+    background-color: #eaf9f2 !important;
+    color: #00703c !important;
+    font-weight: 600 !important;
+  }
+}

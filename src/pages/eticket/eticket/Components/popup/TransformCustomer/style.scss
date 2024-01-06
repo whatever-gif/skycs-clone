@@ -1,0 +1,83 @@
+.popup-content {
+  .tag {
+    display: flex;
+    align-items: center;
+    background-color: rgba(234, 249, 242, 1);
+    padding: 12px;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
+    border-left: 2px solid rgba(0, 112, 60, 1);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    .left {
+      p {
+        font-size: 14px;
+      }
+    }
+
+    div {
+      p:first-child {
+        margin-bottom: 11px;
+      }
+    }
+
+    .right {
+      text-align: right;
+      p {
+        font-size: 13px;
+      }
+    }
+    .strong {
+      font-weight: bold;
+    }
+  }
+
+  .form-transformCustomer {
+    .dx-box-flex {
+    }
+  }
+}
+
+.form {
+  .dx-layout-manager .dx-field-item {
+    padding-bottom: 0px !important;
+  }
+
+  .form-transformCustomer {
+    flex: 1;
+  }
+}
+
+.form-customers {
+  .dx-radiobutton {
+    flex-direction: column;
+  }
+}
+
+.popup-tranfer-customer-content {
+  min-height: 250px;
+  max-height: 300px;
+  padding-right: 10px;
+  padding-left: 10px;
+
+  .dx-radiobutton {
+    height: 50px !important;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .dx-item-content {
+      height: 100%;
+      flex-grow: 1;
+    }
+  }
+
+  .dx-radio-value-container {
+    width: 30px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

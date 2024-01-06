@@ -1,0 +1,14 @@
+.dx-button-has-text .dx-button-content {
+  padding: 5px 16px;
+  background-color: green;
+  color: white;
+}
+
+.dx-toolbar-items-container {
+  margin-bottom: 20px;
+}
+
+.dx-popup-title.dx-toolbar .dx-toolbar-before {
+  padding-top: 18px;
+}
+/*# sourceMappingURL=Sys_Group.css.map */

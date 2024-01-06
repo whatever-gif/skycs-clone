@@ -1,0 +1,21 @@
+@import "../../../../themes/variables.common";
+
+.province-management {
+  .dx-edit-row {
+    background-color: $base-accent-highlight-color;
+  }
+
+  .dx-toolbar-button {
+    .dx-item-content {
+      .toggle-sidebar {
+        .dx-button-content {
+          .dx-icon-menu {
+            &:before {
+              color: #00703c;
+            }
+          }
+        }
+      }
+    }
+  }
+}

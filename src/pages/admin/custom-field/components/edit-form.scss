@@ -1,0 +1,14 @@
+.required {
+  label {
+    &:after {
+      content: "*";
+      color: red;
+    }
+  }
+}
+
+.dx-htmleditor-content {
+  p {
+    word-break: break-word;
+  }
+}

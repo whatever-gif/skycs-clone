@@ -1,0 +1,77 @@
+.Post_cancel .dx-button-content {
+  background-color: white !important;
+  color: black !important;
+}
+// .button_Search.dx-button {
+//   background: transparent !important;
+// }
+.Tab_CallHistoryAgent
+  .dx-datagrid
+  .dx-datagrid-content
+  .dx-datagrid-table
+  .dx-row
+  > td:not(.dx-validation-pending):not(.dx-datagrid-select-all) {
+  vertical-align: bottom !important;
+}
+.Tab_CallHistoryAgent .dx-toolbar-after {
+  // display: none !important;
+}
+
+#chart {
+  padding-right: 10px;
+}
+
+.button-item {
+  padding: 9px 8px;
+  color: #0e223d !important;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  cursor: pointer;
+  line-height: normal;
+  margin-left: 8px;
+  margin-right: 8px;
+
+  &.active {
+    background-color: #eaf9f2 !important;
+    color: #00703c !important;
+    font-weight: 600 !important;
+  }
+}
+
+.report-call {
+  .ReportCall_Manager {
+    #search-panel {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .form-panel {
+      & > .dx-scrollable {
+        // height: auto !important;
+        overflow: auto;
+        max-height: calc(100% - 100px) !important;
+      }
+
+      .button-search-panel {
+        position: absolute;
+        bottom: 0;
+      }
+    }
+
+    .dx-scrollview-content {
+      height: 100%;
+    }
+
+    .form-search-panel {
+      height: 100%;
+    }
+    .dx-scrollable-content {
+      height: 100%;
+
+      .search-panel-visible {
+      }
+    }
+  }
+}

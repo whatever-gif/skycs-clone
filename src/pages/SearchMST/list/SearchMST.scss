@@ -1,0 +1,64 @@
+.Post_cancel .dx-button-content {
+  background-color: white !important;
+  color: black !important;
+}
+.SearchMST-input:focus {
+  border: none !important;
+}
+
+.search_history-bg:hover > .search_history-title {
+  color: #00703c;
+  text-decoration: underline !important;
+}
+.search_history-bg:hover .search_history-title {
+  color: #00703c !important;
+  text-decoration: underline !important;
+}
+
+.Upload_Detail_search form {
+  display: none;
+}
+.Upload_Detail_search .dx-fileuploader-input-wrapper {
+  display: none !important;
+}
+.Upload_Detail_search .dx-button-mode-text {
+  display: none !important;
+}
+.file_Controller {
+  margin-right: 15px;
+}
+mark {
+  color: red !important;
+  background: transparent;
+}
+.dx-popup-content.dx-dialog-content {
+  min-width: 300px !important;
+  height: 80px !important;
+  padding: 0 16px 16px 16px !important;
+  display: flex;
+  align-items: center;
+}
+.dx-dialog-message > div {
+  height: 80px !important;
+  display: flex;
+  align-items: center;
+}
+.dx-dialog-buttons .dx-toolbar-center {
+  float: right !important;
+  margin: 0 !important;
+}
+.dx-dialog-buttons [aria-label="Không"] > .dx-button-content {
+  background: white !important;
+  color: black;
+  border: 1px solid;
+}
+.dx-dialog-buttons [aria-label="Có"] > .dx-button-content {
+  min-width: 70px;
+  border: 1px solid #00703c;
+}
+[role="dialog"] .dx-toolbar-label .dx-toolbar-item-content > div {
+  font-weight: 600 !important;
+}
+.searchDetail_header {
+  position: fixed !important;
+}

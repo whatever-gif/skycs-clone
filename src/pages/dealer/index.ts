@@ -1,0 +1,1 @@
+export * from 'src/pages/dealer/list/dealer-management-page'

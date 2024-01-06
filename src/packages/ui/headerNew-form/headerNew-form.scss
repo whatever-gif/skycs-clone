@@ -1,0 +1,84 @@
+.headerform__menuitems {
+  .dx-widget {
+    box-shadow: none !important;
+    border: none;
+    background-color: transparent;
+
+    .dx-button-content {
+      display: flex;
+      justify-content: flex-start;
+    }
+  }
+
+  #file-uploader {
+    .dx-fileuploader-content {
+      .dx-fileuploader-input-wrapper {
+        border: none;
+      }
+
+      .dx-button-content {
+        padding-left: 14px
+      }
+    }
+
+    .dx-fileuploader-input-container {
+      display: none !important;
+    }
+
+    div {
+      padding: 0;
+    }
+
+    .dx-list-item-content {
+      padding: 0;
+    }
+
+
+    .dx-fileuploader-button {
+      width: 100%;
+    }
+  }
+
+}
+
+.headerform {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__menuitems {}
+
+  &__title {
+    margin: 10px;
+  }
+
+  &__search {
+    .dx-widget {
+      display: flex;
+      align-items: center;
+    }
+
+    margin: 10px;
+  }
+
+  &__button {
+    margin: 10px;
+    padding: 0 10px
+  }
+
+  &__dropdown {}
+
+  .file-uploader {
+    .dx-fileuploader-wrapper {
+      .dx-fileuploader-input-container {
+
+        display: none !important;
+      }
+
+      .dx-fileuploader-input-wrapper {
+        display: none !important;
+      }
+    }
+  }
+
+}

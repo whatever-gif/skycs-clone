@@ -1,0 +1,11 @@
+#admin-page {
+  .header {}
+  .dx-icon {
+    &.dx-icon-column-chooser {
+      background-image: url('/images/icons/settings.svg');
+    }
+  }
+  .dx-icon-column-chooser::before {
+    content: '';
+  }
+}

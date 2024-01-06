@@ -1,0 +1,56 @@
+.dx-tagbox {
+  height: auto;
+}
+
+.dx-overlay-content {
+  // overflow: hidden !important;
+}
+
+.popup-customer-container {
+  height: 100%;
+
+  h3 {
+    color: #0e223d;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    span {
+      font-size: 20px;
+    }
+  }
+
+  .popup-customer-container-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    & > .calculate {
+      flex: 1;
+      padding-right: 50px;
+    }
+
+    .state {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: #0e223d;
+      font-family: Inter;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-top: 12px;
+      padding-left: 20px;
+
+      &--success span {
+        color: #298ef2;
+      }
+      &--unsuccess span {
+        color: #f00;
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.dx-overlay-content.dx-popup-normal.dx-popup-draggable.dx-resizable.dx-popup-inherit-height[role="dialog"] {
+  .confirm-wrapper {
+    min-width: 250px;
+  }
+
+  .confirm-wrapper {
+    min-height: 50px;
+
+    .confirm-wrapper-text {
+      font-size: 14px;
+      color: #0e223d;
+    }
+  }
+
+  .dx-toolbar-center {
+    text-align: right;
+    float: right !important;
+    .dx-item.dx-toolbar-item:first-child {
+      .dx-button-mode-text.dx-button-default {
+        background-color: #00703c !important;
+      }
+    }
+    .dx-item.dx-toolbar-item:last-child {
+      .dx-button-mode-text.dx-button-default {
+        margin-left: 8px !important;
+        border: 1px solid #5f7d95 !important;
+        background: linear-gradient(#ffffff, #efefef);
+        color: #0e223d !important;
+      }
+    }
+  }
+}

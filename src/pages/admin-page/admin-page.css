@@ -1,0 +1,8 @@
+#admin-page .dx-icon.dx-icon-column-chooser {
+  background-image: url("/images/icons/settings.svg");
+}
+
+#admin-page .dx-icon-column-chooser::before {
+  content: '';
+}
+/*# sourceMappingURL=admin-page.css.map */

@@ -1,0 +1,78 @@
+import { useClientgateApi } from "@/packages/api";
+import { useQuery } from "@tanstack/react-query";
+import { SelectBox } from "devextreme-react";
+import { atom, useAtomValue, useSetAtom } from "jotai";
+import { useEffect, useState } from "react";
+import { provinceInvoiceAtom } from "./ProvinceInvoiceField";
+
+export const districtInvoiceAtom = atom<any>(undefined);
+
+const DistrictInvoiceField = ({ param, customOptions, field }: any) => {
+  const { component, formData } = param;
+
+  const provinceInvoice = useAtomValue(provinceInvoiceAtom);
+  const setDistrictInvoice = useSetAtom(districtInvoiceAtom);
+
+  const api = useClientgateApi();
+
+  const [value, setValue] = useState<any>(undefined);
+
+  const { data }: any = useQuery(
+    ["MstDistrictInvoice", provinceInvoice],
+    async () => {
+      if (provinceInvoice) {
+        const resp: any = await api.Mst_District_GetByProvinceCode({
+          ProvinceCode: provinceInvoice,
+        });
+
+        return resp?.Data ?? [];
+      } else {
+        return [];
+      }
+    }
+  );
+
+  const { data: listAll }: any = useQuery(
+    ["MstDistrictInvoiceAll"],
+    api.Mst_District_GetAllActive
+  );
+
+  useEffect(() => {
+    if (formData[field?.ColCodeSys]) {
+      setValue(formData[field?.ColCodeSys]);
+      setDistrictInvoice(formData[field?.ColCodeSys]);
+    } else {
+      setValue(undefined);
+      component.updateData(field?.ColCodeSys, undefined);
+    }
+  }, [formData[field?.ColCodeSys], data]);
+
+  const result: any = listAll?.DataList?.find(
+    (item: any) => item?.DistrictCode == value
+  )?.DistrictName;
+
+  return (
+    <>
+      {customOptions?.editType == "detail" ? (
+        <div className="font-semibold">{result ?? "---"}</div>
+      ) : (
+        <SelectBox
+          dataSource={data ?? []}
+          valueExpr="DistrictCode"
+          displayExpr="DistrictName"
+          onValueChanged={(e: any) => {
+            component.updateData(field?.ColCodeSys, e.value);
+            setValue(e.value);
+            setDistrictInvoice(e.value);
+          }}
+          value={value}
+          readOnly={customOptions?.editType == "detail"}
+          searchEnabled
+          showClearButton
+        ></SelectBox>
+      )}
+    </>
+  );
+};
+
+export default DistrictInvoiceField;

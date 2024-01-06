@@ -1,0 +1,31 @@
+.dx-field-item-label {
+  min-width: 160px !important;
+}
+
+.Tab_CustomerDetail {
+  height: calc(100vh - 350px) !important;
+  .form-test {
+    .normal-content.dx-form.dx-widget.dx-visibility-change-handler {
+      padding-left: 25px !important;
+      padding-right: 50px !important;
+    }
+  }
+}
+
+.customer-detail {
+  .Category_Manager {
+    height: calc(100vh - 350px) !important;
+  }
+}
+
+.expand-icon-true {
+  .dx-button-content {
+    transform: rotate(180deg);
+  }
+}
+
+.expand-icon-false {
+  .dx-button-content {
+    transform: rotate(0deg);
+  }
+}

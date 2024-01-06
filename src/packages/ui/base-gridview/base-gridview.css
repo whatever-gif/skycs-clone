@@ -1,0 +1,58 @@
+/* header filter */
+.dx-header-filter-menu .dx-overlay-content .dx-popup-content {
+  border-bottom: none;
+  padding: 10px;
+}
+
+.dx-header-filter-menu .dx-popup-bottom {
+  border-top: 1px solid #dfdfdf;
+}
+
+.dx-header-filter-menu.dx-popup-wrapper .dx-list-search .dx-texteditor-input-container .dx-placeholder:before {
+  padding: 0 0 0 32px;
+}
+
+.dx-header-filter-menu .dx-popup-bottom.dx-toolbar .dx-toolbar-after {
+  -webkit-box-orient: inherit !important;
+  -webkit-box-direction: inherit !important;
+      -ms-flex-direction: inherit !important;
+          flex-direction: inherit !important;
+}
+
+.base-gridview #gridContainer .dx-popup-content {
+  padding: 4px;
+}
+
+.base-gridview #gridContainer .dx-datagrid {
+  background: #ffffff;
+}
+
+.base-gridview #gridContainer .dx-datagrid .dx-datagrid-header-panel {
+  background: #ffffff;
+}
+
+.base-gridview #gridContainer .dx-datagrid .dx-datagrid-header-panel .dx-toolbar {
+  background: #ffffff;
+}
+
+.base-gridview #gridContainer .dx-datagrid .dx-datagrid-table .dx-col-fixed {
+  background: #ffffff;
+}
+
+.base-gridview .dx-datagrid-header-panel .dx-toolbar .dx-toolbar-after .dx-toolbar-item:nth-last-child(2) {
+  margin-right: 60px;
+}
+
+.base-gridview .dx-datagrid-header-panel .dx-toolbar .dx-toolbar-after .dx-toolbar-item:last-child {
+  /* width: 60px; */
+}
+
+.base-gridview .dx-datagrid-header-panel .dx-toolbar .dx-toolbar-after .dx-toolbar-item:last-child .dx-toolbar-item-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=base-gridview.css.map */

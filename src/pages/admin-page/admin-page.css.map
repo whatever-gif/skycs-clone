@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAGI,WAHO,CAET,QAAQ,AACL,uBAAuB,CAAC;EACvB,gBAAgB,EAAE,iCAAiC;CACpD;;AALL,AAOE,WAPS,CAOT,uBAAuB,AAAA,QAAQ,CAAC;EAC9B,OAAO,EAAE,EAAE;CACZ",
+    "sources": [
+        "admin-page.scss"
+    ],
+    "names": [],
+    "file": "admin-page.css"
+}

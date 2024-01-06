@@ -1,0 +1,73 @@
+.Cpn_Campaign_Info {
+  .header {
+    padding: 13px;
+  }
+  .dx-fileuploader-wrapper {
+    padding: 0px;
+  }
+
+  .dx-fileuploader-input-wrapper {
+    padding: 0px;
+  }
+
+  .breakcrumb {
+    :first-child {
+      font-weight: 400;
+    }
+    p {
+      font-family: Inter;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 17px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  }
+  .dx-tabs-wrapper {
+    background-color: white;
+    padding-left: 0;
+    padding-right: 22px;
+    .dx-item {
+      background-color: white;
+      font-family: Inter;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 17px;
+      letter-spacing: 0em;
+      text-align: left;
+
+      &.dx-tab-selected {
+        color: rgba(0, 112, 60, 1);
+      }
+    }
+  }
+
+  .Cpn_Campaign_Info {
+    .dx-tabs-wrapper {
+      .dx-tab {
+        .dx-item-content {
+          .dx-tab-text {
+            font-size: 14px o !important;
+            font-style: normal;
+            font-weight: 500 !important;
+            line-height: normal;
+          }
+        }
+      }
+    }
+
+    .dx-item-content.dx-tab-content {
+      color: #00703c;
+      font-family: Inter;
+    }
+  }
+}
+
+.tooltip-container {
+  position: relative;
+  .tooltip-box {
+    position: absolute;
+    background-color: white !important;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+}

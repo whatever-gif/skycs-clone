@@ -1,0 +1,1 @@
+export * from 'src/pages/admin/province/list/province-management'

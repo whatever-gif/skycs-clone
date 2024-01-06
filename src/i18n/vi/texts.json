@@ -1,0 +1,43 @@
+{
+  "sales": "Bán hàng",
+  "payment": "Thanh toán",
+  "contract": "Hợp đồng",
+  "report": "Báo cáo",
+  "logistic": "Logistic",
+  "admin": "Quản trị",
+  "addNew": "Thêm mới",
+  "search": "Tìm kiếm",
+  "importExcel": "Nhập Excel",
+  "exportExcel": "Xuất Excel",
+  "exportTemplate": "Xuất Template",
+  "provinceManagement": "Quản lý tỉnh/thành phố",
+  "ProvinceCode": "Mã Tỉnh/Thành",
+  "provinceName": "Tên Tỉnh/Thành",
+  "AreaCode": "Mã vùng miền",
+  "FlagActive": "Trạng thái",
+  "FlagActive.0": "Inactive",
+  "FlagActive.1": "Active",
+  "paginator": {
+    "summary": "{0} - {1} trong số {2}"
+  },
+  "login": {
+    "signIn": "Sign In"
+  },
+  "systemTitle": "DMS",
+  "dealerManagement": "Quản lý đại lý",
+  "districtManagement": "Quản lý quận huyện",
+  "regionManagement": "Quản lý khu vực",
+  "invoiceTypeManagement": "Quản lý loại đơn hàng",
+  "actions": "Hành động",
+  "noData": "Không có dữ liệu",
+  "selectAll": "Chọn tất cả",
+  "apply": "Áp dụng",
+  "cancel": "Hủy",
+  "toggleColumn": "Chọn cột",
+  "status": "Trạng thái",
+  "areYouSure": "Bạn có chắc chắn muốn xóa?",
+  "province": {},
+  "ok": "Đồng ý",
+  "pageSize.showAll": "Tất cả",
+  "pageSize.showing": "Hiển thị"
+}

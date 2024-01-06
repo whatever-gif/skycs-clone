@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,UAAU,CAAC;EACT,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;CAmC/B;;AAjCE,AAAD,yBAAgB,CAAC;EACf,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;CAS/B;;AAXA,AAMK,yBANU,CAId,UAAU,AACP,UAAU,AACR,mBAAmB,CAAC;EACnB,MAAM,EAAE,IAAI;CACb;;AAQN,AAAD,iBAAQ,CAAC;EACP,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;CAC/B;;AAEA,AAAD,qBAAY,CAAC;EACX,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;CAS/B;;AAXA,AAMK,qBANM,CAIV,UAAU,AACP,UAAU,AACR,mBAAmB,CAAC;EACnB,MAAM,EAAE,IAAI;CACb",
+    "sources": [
+        "paginator.scss",
+        "../../../themes/generated/variables.base.scss"
+    ],
+    "names": [],
+    "file": "paginator.css"
+}

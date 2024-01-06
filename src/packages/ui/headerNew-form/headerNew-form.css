@@ -1,0 +1,82 @@
+.headerform__menuitems .dx-widget {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: none;
+  background-color: transparent;
+}
+
+.headerform__menuitems .dx-widget .dx-button-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.headerform__menuitems #file-uploader .dx-fileuploader-content .dx-fileuploader-input-wrapper {
+  border: none;
+}
+
+.headerform__menuitems #file-uploader .dx-fileuploader-content .dx-button-content {
+  padding-left: 14px;
+}
+
+.headerform__menuitems #file-uploader .dx-fileuploader-input-container {
+  display: none !important;
+}
+
+.headerform__menuitems #file-uploader div {
+  padding: 0;
+}
+
+.headerform__menuitems #file-uploader .dx-list-item-content {
+  padding: 0;
+}
+
+.headerform__menuitems #file-uploader .dx-fileuploader-button {
+  width: 100%;
+}
+
+.headerform {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.headerform__title {
+  margin: 10px;
+}
+
+.headerform__search {
+  margin: 10px;
+}
+
+.headerform__search .dx-widget {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headerform__button {
+  margin: 10px;
+  padding: 0 10px;
+}
+
+.headerform .file-uploader .dx-fileuploader-wrapper .dx-fileuploader-input-container {
+  display: none !important;
+}
+
+.headerform .file-uploader .dx-fileuploader-wrapper .dx-fileuploader-input-wrapper {
+  display: none !important;
+}
+/*# sourceMappingURL=headerNew-form.css.map */

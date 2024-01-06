@@ -1,0 +1,430 @@
+.eticket-nav-right {
+  .show-1 {
+    display: none !important;
+  }
+
+  background-color: #fff;
+}
+
+.eticket-detail-popup {
+  .dx-scrollable-vertical {
+    max-height: 400px !important;
+    padding-bottom: 10px;
+  }
+
+  .detail {
+    padding-right: 32px !important;
+
+    .detail-header {
+      background-color: #fff;
+    }
+    .dx-tabs-wrapper {
+      background-color: #fff;
+    }
+  }
+
+  .phone-button {
+    display: none !important;
+  }
+
+  .select-phone {
+    pointer-events: none;
+
+    .dx-selectbox {
+      user-select: none;
+    }
+
+    .dx-texteditor-container {
+      border: none !important;
+    }
+
+    .dx-texteditor-buttons-container {
+      display: none;
+    }
+
+    .dx-texteditor-input {
+      padding: 0 !important;
+      font-weight: 600 !important;
+    }
+  }
+
+  .message-list {
+    .message-item {
+      margin-bottom: 10px;
+
+      .button-icon-detail-eticket {
+        display: none;
+      }
+    }
+  }
+
+  .sep-bottom-5 {
+    display: none;
+  }
+
+  .sep-bottom-1 {
+    background-color: #fff;
+    .dx-tab-selected {
+      background-color: #eaf9f2;
+
+      .dx-tab-content {
+        background-color: #eaf9f2 !important;
+      }
+
+      .dx-tab-text {
+        background-color: #eaf9f2 !important;
+      }
+    }
+  }
+}
+
+.float-right {
+  color: black;
+  font-weight: 600;
+}
+
+.float-right--follower:first-child {
+  margin-bottom: 10px;
+}
+
+.box-follower {
+  background: #eaf9f2;
+  padding: 3px 10px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 600;
+  color: #0e223d;
+  .avatar-sm: {
+    width: 18px;
+    height: 18px;
+    line-height: normal;
+    font-size: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(167 240 206);
+  }
+}
+
+.word-break {
+  word-wrap: break-word;
+}
+
+.auto-file {
+  margin-left: 40px;
+}
+
+.group-part {
+  background-color: #f5f7f9;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding-top: 10px;
+
+  .dx-box-item-content.dx-box-flex {
+    flex-wrap: wrap;
+  }
+
+  .dx-layout-manager {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex !important;
+    align-content: center !important;
+    .dx-field-item-label {
+      min-width: 120px;
+    }
+
+    .dx-field-item-content {
+      flex: 1;
+    }
+
+    .dx-item-content {
+      .dx-box-item {
+        .dx-first-col {
+          padding-right: 0px !important;
+          margin-right: 10px;
+        }
+        .dx-last-col {
+          padding-left: 0px !important;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+  .dx-layout-manager {
+  }
+
+  .dx-texteditor-container {
+    // width: 350px;
+    flex: 1;
+  }
+
+  .dx-field-item {
+    display: flex;
+    :last-child {
+      // flex: 1;
+      // min-width: 300px;
+    }
+  }
+}
+
+.message-item.pin {
+  border-radius: 3px;
+  border: 0.5px solid #00703c;
+  background: linear-gradient(0deg, #eaf9f2, #eaf9f2);
+  transition: all 0.15s linear;
+  -webkit-transition: all 0.15s linear;
+  -moz-transition: all 0.15s linear;
+  -ms-transition: all 0.15s linear;
+  -o-transition: all 0.15s linear;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  :hover {
+    background-color: linear-gradient(0deg, #00703c, #00703c);
+  }
+}
+
+.pin-show {
+  display: flex;
+  align-items: center;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  color: rgba(0, 112, 60, 1);
+  p {
+    padding-left: 5px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.eticket-it-table {
+  // margin-left: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  display: table;
+  width: 50%;
+}
+.eticket-it-table tr td {
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.format-text-html {
+  font-weight: 500;
+  p {
+    span {
+      font-size: 13px !important;
+      font-weight: 400 !important;
+    }
+  }
+}
+
+.pop-up-use {
+  padding-bottom: 0px !important;
+}
+
+.content-call {
+  background: white;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.call-item {
+  text-align: left;
+  position: relative;
+}
+
+.list-file {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .file-style {
+    margin-right: 5px;
+    background-color: #eaf9f2;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    svg {
+      height: 16px;
+      width: 16px;
+    }
+    p {
+      margin-left: 5px;
+    }
+  }
+
+  :last-child {
+    margin-right: 0px;
+  }
+}
+
+.breadcrumb-eticket-detail {
+  font-size: 14px !important;
+  span {
+    color: #5f7d95;
+  }
+
+  svg {
+    margin-left: 17px;
+    margin-right: 17px;
+  }
+}
+
+.eticket-detail {
+  .page-header {
+    padding-left: 16px;
+  }
+
+  .eticket-button-send {
+  }
+
+  .header-title {
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #0e223d;
+  }
+
+  .format-text-html {
+    word-wrap: break-word;
+  }
+
+  .dx-tabs-wrapper {
+    display: flex !important;
+    .dx-item-content {
+      height: auto !important;
+    }
+
+    .dx-item {
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+  }
+
+  .eticket-nav-right {
+    .dx-tabs-wrapper {
+      border-bottom: solid 1px #aab3bb;
+      display: flex !important;
+      .dx-item-content {
+        height: auto !important;
+      }
+
+      .dx-item {
+        padding-top: 11px;
+        flex: 1;
+        padding-left: 25px;
+        padding-right: 25px;
+      }
+    }
+  }
+
+  .dx-field-item-label {
+    display: flex !important;
+    align-items: center;
+  }
+
+  .dx-button-content {
+    svg {
+      height: 14px;
+      width: 14px;
+    }
+  }
+
+  .title {
+    color: #5f7d95 !important;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .message-item {
+    border-radius: 3px !important;
+    -webkit-border-radius: 3px !important;
+    -moz-border-radius: 3px !important;
+    -ms-border-radius: 3px !important;
+    -o-border-radius: 3px !important;
+  }
+
+  .message-type {
+    p {
+      color: #0e223d;
+      font-family: Inter;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+
+  .dx-scrollable-wrapper {
+    & > .dx-scrollable-container {
+      padding-top: 0px !important;
+    }
+  }
+
+  .breadcrumb-eticket-detail {
+    span {
+      font-size: 14px;
+    }
+  }
+
+  .message-list {
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 20px;
+  }
+}
+
+.dx-button-content {
+  border-radius: 3px !important;
+  -webkit-border-radius: 3px !important;
+  -moz-border-radius: 3px !important;
+  -ms-border-radius: 3px !important;
+  -o-border-radius: 3px !important;
+}
+.eticket .dx-button-has-icon {
+  border-radius: 3px !important;
+  -webkit-border-radius: 3px !important;
+  -moz-border-radius: 3px !important;
+  -ms-border-radius: 3px !important;
+  -o-border-radius: 3px !important;
+}
+
+.button-icon-detail-eticket {
+  min-width: 35px !important;
+  min-height: 28px !important;
+}
+
+.align-items-flex-start {
+  align-items: flex-start;
+}
+
+.box-button-eticket {
+  .flex {
+    justify-content: flex-end;
+  }
+}
+
+.justify-content-flex-end {
+  justify-content: flex-end;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}

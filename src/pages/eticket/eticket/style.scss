@@ -1,0 +1,41 @@
+.eticket-manager {
+  .status {
+    color: white;
+    border-radius: 2px;
+    margin: 0 auto;
+    padding: 5px 20px;
+  }
+
+  .status.open {
+    background: #cfb929;
+  }
+  .status.pending {
+    background: #cfb929;
+  }
+  .status.processing {
+    background: #e48203;
+  }
+  .status.closed {
+    background: #a7a7a7;
+  }
+  .status.resolved {
+    border-radius: 2px;
+    background: #eb3573;
+  }
+
+  .status.waiting.on.customer {
+    background: #20ada5;
+  }
+  .status.Waiting.on.third.party {
+    background: #d34848;
+  }
+  .status.new {
+    background: #0fbc2b;
+  }
+  .status.on.hold {
+    background: #8b62c0;
+  }
+  .status.WAITINGON3RD {
+    background: #a63db8;
+  }
+}

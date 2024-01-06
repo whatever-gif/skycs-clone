@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,mBAAmB,CAAC,kBAAkB,CAAC;EACrC,OAAO,EAAE,QAAQ;EACjB,gBAAgB,EAAE,KAAK;EACvB,KAAK,EAAE,KAAK;CACb;;AACD,AAAA,2BAA2B,CAAC;EAC1B,aAAa,EAAE,GAAG;CACnB",
+    "sources": [
+        "User_Mananger.scss"
+    ],
+    "names": [],
+    "file": "User_Mananger.css"
+}

@@ -1,0 +1,40 @@
+@import "../../../themes/generated/variables.base";
+
+.paginator {
+  display: flex;
+  justify-content: space-between;
+
+  &__previous-page {
+    display: flex;
+    justify-content: space-between;
+
+    .dx-widget {
+      &.dx-button {
+        &.dx-button-has-icon {
+          border: none;
+        }
+      }
+    }
+  }
+
+  &__current {
+  }
+
+  &__pages {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__next-page {
+    display: flex;
+    justify-content: space-between;
+
+    .dx-widget {
+      &.dx-button {
+        &.dx-button-has-icon {
+          border: none;
+        }
+      }
+    }
+  }
+}

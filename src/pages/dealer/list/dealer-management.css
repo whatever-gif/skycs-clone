@@ -1,0 +1,18 @@
+.accordion .dx-tabpanel-item {
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.accordion .dx-tabpanel-item .dx-item-content {
+  padding: 0;
+}
+
+.accordion .dx-tabpanel-item .dx-item-content .dx-form .dx-item {
+  margin: 0;
+  border-top: 1px solid #ccc;
+}
+
+.accordion .dx-tabpanel-item .dx-item-content .dx-form .dx-item:first-child {
+  border-top: none;
+}
+/*# sourceMappingURL=dealer-management.css.map */

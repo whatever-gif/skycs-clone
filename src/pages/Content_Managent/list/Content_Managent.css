@@ -1,0 +1,11 @@
+.Content_Managent .header-layout {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Email_title .dx-htmleditor-content {
+  line-height: 0.2 !important;
+  padding: 13px 15px !important;
+}
+/*# sourceMappingURL=Content_Managent.css.map */

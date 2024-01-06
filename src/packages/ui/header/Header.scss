@@ -1,0 +1,102 @@
+@import "../../../themes/generated/variables.base";
+@import "../../../themes/variables.common";
+@import "../../../dx-styles";
+
+.header-component {
+  flex: 0 0 auto;
+  z-index: 1;
+
+  box-shadow: 0px 2px 4px rgba(101, 101, 101, 0.16);
+
+  .dx-tabs {
+    .dx-tab {
+      color: #ffffff;
+
+      &.dx-state-hover {
+        background-color: $header-bg;
+      }
+    }
+  }
+
+  .dx-toolbar {
+    .dx-toolbar-items-container {
+      background-color: $header-bg;
+      color: $base-text-color;
+      height: $header-bar-height;
+    }
+
+    .dx-toolbar-item {
+      &.header-menu-bar {
+        padding-left: 30px;
+      }
+    }
+  }
+
+  .dx-toolbar .dx-toolbar-item.menu-button > .dx-toolbar-item-content .dx-icon {
+    color: $base-bg;
+  }
+
+  .header-logo {
+    .system-logo {
+      margin-left: 16px;
+      width: 95px;
+      height: $header-bar-height - 20px;
+      background: url("/images/icons/logoSkycs.png") no-repeat center;
+      background-size: contain;
+    }
+  }
+
+  .header-title {
+    .dx-item-content {
+      font-weight: 600;
+      font-size: large;
+    }
+  }
+
+  .dx-button {
+    border: none;
+    background: none !important;
+    box-shadow: none !important;
+
+    .dx-button-content {
+      border: none;
+      box-shadow: none;
+      outline: none;
+      background: none;
+      border-image: none;
+    }
+
+    .dx-button-content:hover {
+      opacity: 0.7;
+    }
+  }
+}
+
+.dx-toolbar.header-toolbar .dx-toolbar-items-container .dx-toolbar-after {
+  padding: 0 40px 0 0;
+
+  .screen-x-small & {
+    padding: 0 20px;
+  }
+}
+
+.dx-toolbar .dx-toolbar-item.dx-toolbar-button.menu-button {
+  width: $side-panel-min-width;
+  text-align: center;
+  padding: 0;
+}
+
+.header-title .dx-item-content {
+  padding: 0;
+  margin: 0;
+}
+
+.dx-theme-generic {
+  .dx-toolbar {
+    padding: 10px 0;
+  }
+
+  .user-button > .dx-button-content {
+    padding: 3px;
+  }
+}

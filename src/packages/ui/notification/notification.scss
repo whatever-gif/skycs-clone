@@ -1,0 +1,97 @@
+.notifications {
+  .sep {
+    height: 1rem;
+    width: 1px;
+
+    background: #ccc;
+    display: inline-block;
+  }
+
+  .head {
+    height: 40px;
+    line-height: 30px;
+    border-bottom: solid 1px #eee;
+    float: left;
+  }
+  .foot {
+    height: 40px;
+    line-height: 30px;
+    border-top: solid 1px #eee;
+    float: left;
+  }
+
+  .mn-dropdown {
+    display: inline-block;
+    padding: 5px 10px 50px 10px;
+    line-height: 1rem;
+    cursor: pointer;
+  }
+
+  .cursor-pointer {
+    cursor: pointer;
+  }
+
+  .notification-item {
+    border-bottom: solid 1px #eee;
+
+    .sl-img {
+      width: 40px;
+      height: 40px;
+      border: solid 1px #ccc;
+      border-radius: 50%;
+    }
+
+    .detail {
+      font-size: 12px;
+      color: #000;
+    }
+    .time {
+      font-size: 10px;
+      color: #999;
+      font-style: italic;
+    }
+  }
+
+  .notification-item:hover {
+    opacity: 0.8;
+  }
+  .notification-item.unread {
+    background-color: #e4f2ec;
+  }
+
+  .d-list {
+    float: left;
+    max-height: 340px;
+    overflow-y: auto;
+  }
+}
+
+.dx-icon-custom-bell {
+  background-image: url(/images/icons/ic_notify.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+}
+
+.dx-icon-custom-bell-hasnew {
+  background-image: url(/images/icons/ic_notify.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  display: inline-block;
+  height: 1.1rem;
+  width: 1.2rem;
+}
+
+.dx-icon-custom-markasread {
+  background-image: url(/images/icons/markasread.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  display: inline-block;
+  height: 0.9rem;
+  width: 0.9rem;
+}
