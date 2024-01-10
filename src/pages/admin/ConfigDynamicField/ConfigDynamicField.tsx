@@ -31,7 +31,7 @@ const ConfigDynamicField = () => {
       });
 
       if (resp?.isSuccess) {
-        return (
+        const data =
           resp?.DataList?.filter((item: any) => item?.FlagIsColDynamic == "1")
             .sort((a: any, b: any) => {
               const a_time: any = new Date(a.LogLUDTimeUTC);
@@ -47,8 +47,9 @@ const ConfigDynamicField = () => {
                     ? "1"
                     : "0",
               };
-            }) ?? []
-        );
+            }) ?? [];
+
+        return data;
       }
     }
   );

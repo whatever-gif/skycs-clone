@@ -1,4 +1,4 @@
-export const jsonData = [
+export const ListDuLieuTruongDong = [
   {
     OrgID: "4053894000",
     ColCodeSys: "C0BG",
