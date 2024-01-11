@@ -4,11 +4,12 @@ import { useAuth } from "@/packages/contexts/auth";
 import { showErrorAtom } from "@/packages/store";
 
 import { useQuery } from "@tanstack/react-query";
-import { Input } from "antd";
+import { Button as AntdButton, Input, Popconfirm, Spin, message } from "antd";
 import { Button } from "devextreme-react";
 import { useSetAtom } from "jotai";
 import { useState } from "react";
 import { toast } from "react-toastify";
+import "./demo.scss";
 import { ChiTietKhachHangLieHe } from "./support-tool/ChiTietKhachHangLienHe";
 import { ChiTietKhachHangTop } from "./support-tool/ChiTietKhachHangTop";
 import { ListDuLieuTruongDong } from "./support-tool/ListDuLieuTruongDong";
@@ -20,6 +21,8 @@ function DemoExcel() {
   const [orgID, setOrgID] = useState(null);
   const [networkID, setNetworkID] = useState(null);
 
+  const [loading, setLoading] = useState(false);
+
   const api = useClientgateApi();
 
   const showError = useSetAtom(showErrorAtom);
@@ -28,14 +31,51 @@ function DemoExcel() {
 
   const getSql = async () => await api.Seq_GetColCodeSys();
 
-  const { data: listDynamic } = useQuery(["listDynamicField"], async () => {
-    const resp: any = await api.MDMetaColumn_GetAllActive();
+  const { data: listDynamic, isLoading } = useQuery(
+    ["listDynamicField"],
+    async () => {
+      const resp: any = await api.MDMetaColumn_GetAllActive();
 
-    return resp?.DataList ?? [];
-  });
+      return resp?.DataList ?? [];
+    }
+  );
+
+  const handleDeleteAllDynamicField = async () => {
+    console.log(listDynamic);
+
+    if (
+      listDynamic.filter((item: any) => item?.FlagIsColDynamic == "1").length ==
+      0
+    ) {
+      message.warning("Còn gì nữa đâu mà xóa!");
+      return;
+    }
+
+    setLoading(true);
+
+    const resp = listDynamic
+      .filter((item: any) => item?.FlagIsColDynamic == "1")
+      .map(async (item: any) => {
+        const deleteResp = await api.MDMetaColumn_Delete(item.ColCodeSys);
+
+        if (deleteResp.isSuccess) {
+          message.success(`Xóa trường động: ${item.ColCaption} thành công!`);
+        } else {
+          message.error(`Xóa trường động: ${item.ColCaption} thất bại!`);
+        }
+      });
+
+    Promise.all(resp)
+      .then((res) => res)
+      .finally(() => setLoading(false));
+  };
 
   const handleGenTruongDong = async () => {
-    const listPromise = ListDuLieuTruongDong.map(async (item: any) => {
+    setLoading(true);
+
+    const listPromise = ListDuLieuTruongDong.filter(
+      (item: any) => item.FlagIsColDynamic == "1"
+    ).map(async (item: any) => {
       const code = await getSql().then((res) => {
         return res.Data;
       });
@@ -67,19 +107,21 @@ function DemoExcel() {
         const resp = await api.MDMetaColumn_Create(param);
 
         if (resp.isSuccess) {
-          toast.success(`${param.ColCaption} - thành công!`);
+          message.success(`${param.ColCaption} - thành công!`);
         } else {
-          toast.error(`${param.ColCaption} - thất bại!`);
+          message.error(`${param.ColCaption} - thất bại!`);
         }
       });
 
-      Promise.all(listProcess).then((res) => res);
+      Promise.all(listProcess)
+        .then((res) => res)
+        .finally(() => {
+          setLoading(false);
+        });
     });
   };
 
   const handleGenDTL = async () => {
-    return;
-
     const result = ChiTietKhachHangTop.map((item: any) => {
       const found = listDynamic?.find(
         (c: any) => c.ColCaption == item.ColCaption
@@ -122,8 +164,6 @@ function DemoExcel() {
   };
 
   const handleGenAdd = async () => {
-    return;
-
     const result = TaoMoiKhachHang.map((item: any) => {
       const found = listDynamic?.find(
         (c: any) => c.ColCaption == item.ColCaption
@@ -169,8 +209,6 @@ function DemoExcel() {
   };
 
   const handleGenContact = async () => {
-    return;
-
     const result = ChiTietKhachHangLieHe.map((item: any) => {
       const found = listDynamic?.find(
         (c: any) => c.ColCaption == item.ColCaption
@@ -216,8 +254,26 @@ function DemoExcel() {
   };
 
   return (
-    <div className="p-2 flex flex-col gap-2">
+    <div className="p-2 flex flex-col gap-2 custom">
       <div className="flex flex-col gap-1">
+        <Popconfirm
+          title="Xóa trường động"
+          description="Bạn có chắc chắn muốn xóa toàn bộ trường động?"
+          onConfirm={handleDeleteAllDynamicField}
+          okText="Đồng ý"
+          cancelText="Thoát"
+        >
+          <AntdButton
+            danger
+            type="primary"
+            style={{
+              width: 300,
+            }}
+          >
+            Xóa tất cả Trường động
+          </AntdButton>
+        </Popconfirm>
+
         <Input
           placeholder="Nhập NetworkID"
           style={{
@@ -237,6 +293,10 @@ function DemoExcel() {
           }}
         />
       </div>
+
+      {isLoading && <Spin fullscreen />}
+
+      {loading && <Spin fullscreen />}
 
       {orgID && networkID && (
         <>

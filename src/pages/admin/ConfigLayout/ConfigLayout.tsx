@@ -325,7 +325,7 @@ const ConfigLayout = () => {
 
     const resp: any = await api.MDMetaColGroupSpec_Save({
       screen: currentScreen,
-      data: supportLayoutData.CTKH_LH,
+      data: supportLayoutData.TaoMoiKH,
     });
 
     if (resp?.isSuccess) {
